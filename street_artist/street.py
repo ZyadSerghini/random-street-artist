@@ -1,5 +1,4 @@
-import floors
-import base
+from . import floors, base
     
 def building(x = -150, y_ground = -300):
     """Draws a random building, from ground floor to roof."""

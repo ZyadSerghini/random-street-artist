@@ -1,5 +1,4 @@
-import street
-import ground
+from . import street, ground
 import turtle as tt
 import random
 
@@ -18,5 +17,7 @@ def main():
     
 if __name__ == "__main__":
     main()
+    canvas = tt.getcanvas()
+    canvas.postscript(file="street.eps")
     tt.done()
     

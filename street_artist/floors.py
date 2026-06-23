@@ -1,5 +1,5 @@
-import roofs
-import facade as face
+from . import roofs
+from . import facade as face
 
 def ground_floor(x = -150, y_ground = -300, c_facade = "red", c_door = "yellow"):
     """Draws the ground floor."""

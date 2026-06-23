@@ -1,4 +1,4 @@
-import base
+from . import base
 
 def triangular_roof(x=-150, y=-300, number=4):
     """Draws a triangular roof."""

@@ -1,4 +1,4 @@
-import base as base
+from . import base
 
 def facade(x = -150, y_sol = -300, color = "red", level = 0):
     """Draws doors, windows and balconies."""
